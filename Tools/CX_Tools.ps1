@@ -21,7 +21,7 @@ function GetBasicInfo {
 
     $result = ""
     $result += "$($stringFormat -f "Author", "Github.com/ChetDuoiKhiDanhRang")"
-    $result += "`n$($stringFormat -f "Source code", "https://github.com/ChetDuoiKhiDanhRang/PowerShell")"
+    $result += "`n$($stringFormat -f "Source code", "https://github.com/ChetDuoiKhiDanhRang/CommandShell")"
     $result += "`n$($stringFormat -f "Date-time", $cTime)"
     $result += "`n$($stringFormat -f "OS name", $osName)"
     $result += "`n$($stringFormat -f "OS version", $osVersion)"
